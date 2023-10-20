@@ -5,7 +5,7 @@ const HomeContent = () => {
              <div className="home-content">
                 <h3>Hello, I'm</h3>
                 <h1>Lloyd Bautista</h1>
-                <h3>And I'm an aspiring <span className="multiple-entry"></span></h3>
+                <h3>And I'm an aspiring <span className="multiple-entry">Web Developer</span></h3>
                 <p>I am currently seeking for a position in a company where I can leverage my skills and expertise in the field of IT and contribute to a company that provides an opportunity for both personal and career growth.
                 </p>
                 <div className="social-media">
