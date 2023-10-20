@@ -1,0 +1,14 @@
+/* Decrease the size of the SweetAlert2 dialogs */
+.swal2-popup {
+    width: 300px; /* Adjust the width to your preferred size */
+}
+
+/* Adjust the font size for the title (Message sent successfully) */
+.swal2-title {
+    font-size: 1.4rem;
+}
+
+/* Adjust the font size for the "OK" button */
+.swal2-confirm {
+    font-size: .6rem;
+}
