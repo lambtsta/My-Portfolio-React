@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <main className="main">
+    <>
       <GradientAnimation/>
       <Header />
       <HomeContent />
@@ -37,7 +37,8 @@ function App() {
       <ProjContent />
       <ContactContent />
       <Footer />
-    </main>
+    </>
+      
   );
 }
 

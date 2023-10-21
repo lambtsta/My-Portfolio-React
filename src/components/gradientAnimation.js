@@ -19,13 +19,13 @@ const GradientRight = () => (
 );
 
 const GradientAnimation = () => (
-    <div className="all-sides-animation">
+    <>
         <GradientUp />
         <GradientDown />
         <GradientMiddle />
         <GradientLeft />
         <GradientRight />
-    </div>
+    </>
 );
 
 export default GradientAnimation;
