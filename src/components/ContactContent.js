@@ -43,7 +43,7 @@ const ContactContent = () => {
                 <input type="text" name="email_subject" placeholder="Email Subject"/>
             </div>
             <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            <input type="submit" name="submit" value="Send Message" class="send-btn"/>
+            <input type="submit" name="submit" value="Send Message" className="send-btn"/>
         </form>
     </section>
     );

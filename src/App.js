@@ -8,7 +8,7 @@ import Services from './components/ServicesContent';
 import ProjContent from './components/Projects.Content';
 import ContactContent from './components/ContactContent';
 import Footer from './components/Footer';
-import GradientAnimation from './components/gradientAnimation';
+// import GradientAnimation from './components/gradientAnimation';
 import './css/style.css';
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <GradientAnimation/>
+      {/* <GradientAnimation/> */}
       <Header />
       <HomeContent />
       <AboutContent />

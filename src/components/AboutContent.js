@@ -3,7 +3,7 @@ const AboutContent = ()=>{
         <section className="about" id="about">
             <div className="about-img">
                 <img src="/assets/lloyd.webp" alt="Lloyd"/>
-                <div class="overlay-text">#Class of 2023 🎉</div>
+                <div className="overlay-text">#Class of 2023 🎉</div>
             </div>
             <div className="about-content">
                 <h2 className="heading">About<span>Me</span></h2>

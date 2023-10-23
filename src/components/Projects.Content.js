@@ -1,4 +1,25 @@
+const ProjAid = (props) => {
+    return (
+        <div className="portfolio-container">
+            <div className="portfolio-box-img">
+            <img src={props.icon} alt="icon" />
+            </div>
+            <div className="portfolio-box-content">
+            <h3>{props.title}</h3>
+            <p>{props.desc}</p>
+            <div className="portfolio-app-container">
+                {props.images.map((image, index) => (
+                    <div className="aidukasyon" key={index}>
+                    <img src={image} alt="projects-img" />
+                    <span>{props.image_labels[index]}</span>
+                    </div>
+                ))}
+            </div>
+            </div>
+        </div>
+    );
 
+}
 const ProjAtlantis = (props)=>{
     return(
         <div className="portfolio-container">
@@ -75,7 +96,7 @@ const ProjContent = () => {
                 ]}
                 image_labels={["React", "Django (REST API)", "PostgreSQL"]}
                 />
-                <ProjRMS
+                <ProjAid
                 icon="/assets/AID.png"
                 title="AIDukasyon: An Educational Assistance Web Portal"
                 desc="AIDukasyon is a Capstone Project intended for the 
@@ -98,12 +119,6 @@ const ProjContent = () => {
     );
 }
   
-
-  
-
-
-
-
 
 export default ProjContent;
   

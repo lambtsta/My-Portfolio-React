@@ -631,6 +631,56 @@ section{
     width: 8rem;
     margin-right: .5rem;
 }
+/* aidukasyon */
+.portfolio-app-container .aidukasyon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-app-container .aidukasyon img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    margin: .4rem;
+   
+}
+
+.portfolio-app-container .aidukasyon span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    font-size: .8rem;
+}
+.portfolio-app-container .aidukasyon:nth-child(1){
+    color: #7dcce2;
+    border: #56B8D4 solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    margin-right: 1rem;
+}
+.portfolio-app-container .aidukasyon:nth-child(2){
+    color: #80b199 ;
+    border: #0C2B1C solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11rem;
+    margin-right: 1rem;
+}
+
+.portfolio-app-container .aidukasyon:nth-child(3){
+    width: 8rem;
+    border: #2b6da3 solid 2px;
+    color: #719fc5;
+    width: 8rem;
+    margin-right: .5rem;
+}
+
 
 .contact{
     min-height: 100vh;
